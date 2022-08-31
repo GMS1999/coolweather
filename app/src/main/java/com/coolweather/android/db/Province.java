@@ -1,13 +1,11 @@
 package com.coolweather.android.db;
-
-import org.litepal.crud.DataSupport;
+import org.litepal.crud.LitePalSupport;
 
 /**
  * 每个类都应该继承DataSupport
  */
 
-
-public class Province extends DataSupport {
+public class Province extends LitePalSupport {
     //id
     private int id;
     //记录省的名字
